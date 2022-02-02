@@ -2,7 +2,6 @@ package com.ren.guns;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.block.data.type.Fire;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -16,6 +15,7 @@ public final class Main extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
+        Objects.requireNonNull(getCommand("w")).setExecutor(new WeaponizeCommand());
         Bukkit.getPluginManager().registerEvents(this, this);
     }
 
@@ -31,14 +31,15 @@ public final class Main extends JavaPlugin implements Listener {
                 launchCustomProjectile(player, EnderPearl.class);
             } else if(e.getItem().getType().equals(Material.IRON_SHOVEL)) { //If it's an Iron Shovel
                 launchCustomProjectile(player, Snowball.class);
-            } else if(e.getItem().getType().equals(Material.DIAMOND_SWORD)) {
+            } else if(e.getItem().getType().equals(Material.DIAMOND_SWORD)) { //If it's a Diamond Sword
                 launchCustomProjectile(player, Trident.class);
-            } else if(e.getItem().getType().equals(Material.IRON_SWORD)) {
+            } else if(e.getItem().getType().equals(Material.IRON_SWORD)) { //If it's an Iron Shovel
                 launchCustomProjectile(player, Arrow.class);
             }
         }
     }
 
+    //Makes it, so I don't have to type this over and over again
     public void launchCustomProjectile(Player player, Class functionalInterface) {
         player.launchProjectile(functionalInterface, player.getLocation().getDirection());
     }
