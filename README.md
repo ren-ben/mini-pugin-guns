@@ -10,6 +10,10 @@
 
 2. Minecraft 1.18.1👀
 
+# Download 🎈
+
+[👉Here👈](https://github.com/ren-ben/project-guns/releases/tag/v0.1.0)
+   
 # Installation🕹️
 
 1. Create A Server
