@@ -41,7 +41,7 @@
 # Basic Premise🪄
 
 
-The Plugin, as I have already states isn't really for public use I just made it to train my skills a bit.
+The Plugin, as I already stated isn't really for public use I just made it to train my skills a Git.
 
 The Player will be given a command to weaponize certain Tools with certain Projectiles.
 
