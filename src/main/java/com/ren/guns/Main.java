@@ -21,20 +21,33 @@ public final class Main extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent e) { //Fires whenever the Player Interacts with an item
+
         if(e.hasItem() && Objects.equals(e.getHand(), EquipmentSlot.HAND)) {  //If the player has an Item and the Item is in his main hand
             Player player = e.getPlayer();
             if(Objects.requireNonNull(e.getItem()).getType().equals(Material.DIAMOND_HOE)) { //If it's a Diamond Hoe
-                launchCustomProjectile(player, Fireball.class);
+                if(WeaponizeCommand.isGlobal || WeaponizeCommand.isDHoe) {
+                    launchCustomProjectile(player, Fireball.class);
+                }
             } else if(e.getItem().getType().equals(Material.IRON_HOE)) { //If it's an Iron Hoe
-                launchCustomProjectile(player, ThrownExpBottle.class);
+                if(WeaponizeCommand.isGlobal || WeaponizeCommand.isIHoe) {
+                    launchCustomProjectile(player, ThrownExpBottle.class);
+                }
             } else if(e.getItem().getType().equals(Material.DIAMOND_SHOVEL)) { //If it's a Diamond Shovel
-                launchCustomProjectile(player, EnderPearl.class);
+                if(WeaponizeCommand.isGlobal || WeaponizeCommand.isDShovel) {
+                    launchCustomProjectile(player, EnderPearl.class);
+                }
             } else if(e.getItem().getType().equals(Material.IRON_SHOVEL)) { //If it's an Iron Shovel
-                launchCustomProjectile(player, Snowball.class);
+                if(WeaponizeCommand.isGlobal || WeaponizeCommand.isIShovel) {
+                    launchCustomProjectile(player, Snowball.class);
+                }
             } else if(e.getItem().getType().equals(Material.DIAMOND_SWORD)) { //If it's a Diamond Sword
-                launchCustomProjectile(player, Trident.class);
+                if(WeaponizeCommand.isGlobal || WeaponizeCommand.isDSword) {
+                    launchCustomProjectile(player, Trident.class);
+                }
             } else if(e.getItem().getType().equals(Material.IRON_SWORD)) { //If it's an Iron Shovel
-                launchCustomProjectile(player, Arrow.class);
+                if(WeaponizeCommand.isGlobal || WeaponizeCommand.isISword) {
+                    launchCustomProjectile(player, Arrow.class);
+                }
             }
         }
     }
