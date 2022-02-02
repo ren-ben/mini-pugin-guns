@@ -1,16 +1,16 @@
-<img title="" src="https://img.icons8.com/nolan/512/sports-gun.png" alt="" width="217" data-align="center">**Project Guns** is a Test Project for learning Minecraft Plugins
+<p align="center">
+<img title="" src="https://img.icons8.com/nolan/512/sports-gun.png" alt="" width="217" data-align="center">
 
+<p align="center">
+<b>Project Guns</b> is a Test Project for learning Minecraft Plugins
+   
 # Requirements🔥
-
----
 
 1. Java 17 ☕
 
 2. Minecraft 1.18.1👀
 
 # Installation🕹️
-
----
 
 1. Create A Server
    
@@ -36,7 +36,6 @@
 
 # Basic Premise🪄
 
----
 
 The Plugin, as I have already states isn't really for public use I just made it to train my skills a bit.
 
@@ -56,7 +55,6 @@ The Player will be given a command to weaponize certain Tools with certain Proje
 
 # Usage💡
 
----
 
 Type `/w` to weaponize all the Tools
 
@@ -80,6 +78,5 @@ You can also use `/w rm` to remove de-weaponize all tools
 
 # Acknowledgements🏆
 
----
 
 This project is actually a challenge from [This Course](https://www.udemy.com/course/develop-minecraft-plugins-java-programming/) on Udemy made by Stephen King, all credit for the initial idea goes to him, although I've added some extra features myself.
