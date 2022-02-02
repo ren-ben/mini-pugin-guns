@@ -36,7 +36,11 @@
    
    7. Run start.bat again
 
-2. Download the 
+2. Download the jar file
+
+3. Paste the jar file into the `plugins` Folder
+
+4. Run start.bat one last time
 
 # Basic Premise🪄
 
