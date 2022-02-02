@@ -36,7 +36,7 @@
 
 3. Paste the jar file into the `plugins` Folder
 
-4. Run start.bat one last time
+4. Run start.bat one more time
 
 # Basic Premise🪄
 
