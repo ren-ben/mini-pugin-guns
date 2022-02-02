@@ -86,6 +86,5 @@ You can also use `/w rm` to remove de-weaponize all tools
 This project is actually a challenge from [This Course](https://www.udemy.com/course/develop-minecraft-plugins-java-programming/) on Udemy made by Stephen King, all credit for the initial idea goes to him, although I've added some extra features myself.
    
 
-# Download 🎈
+# [Download 🎈](https://github.com/ren-ben/project-guns/releases/tag/v0.1.0)
 
-[👉Here👈](https://github.com/ren-ben/project-guns/releases/tag/v0.1.0)
