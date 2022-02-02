@@ -1,0 +1,7 @@
+name: Guns
+version: '${project.version}'
+main: com.ren.guns.Main
+api-version: 1.18
+authors: [ ren ]
+description: This is a Test Plugin
+website: github.com/ren-ben
