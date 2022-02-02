@@ -9,10 +9,6 @@
 1. Java 17 ☕
 
 2. Minecraft 1.18.1👀
-
-# Download 🎈
-
-[👉Here👈](https://github.com/ren-ben/project-guns/releases/tag/v0.1.0)
    
 # Installation🕹️
 
@@ -83,6 +79,10 @@ Here's a list of all the specific tool arguments:
 - `iron_sword`
 
 You can also use `/w rm` to remove de-weaponize all tools
+
+# Download 🎈
+
+[👉Here👈](https://github.com/ren-ben/project-guns/releases/tag/v0.1.0)
 
 # Acknowledgements🏆
 
