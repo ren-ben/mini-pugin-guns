@@ -62,7 +62,7 @@ The Player will be given a command to weaponize certain Tools with certain Proje
 
 Type `/w` to weaponize all the Tools
 
-You can also specify which one you'd like, for example `/w iron_shovel`
+You can also specify which one you'd like to weaponize, for example `/w iron_shovel`
 
 Here's a list of all the specific tool arguments:
 
@@ -78,7 +78,7 @@ Here's a list of all the specific tool arguments:
 
 - `iron_sword`
 
-You can also use `/w rm` to remove de-weaponize all tools
+You can also use `/w rm` to de-weaponize all tools
 
 # Acknowledgements🏆
 
