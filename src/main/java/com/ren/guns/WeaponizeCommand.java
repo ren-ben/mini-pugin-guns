@@ -20,7 +20,7 @@ public class WeaponizeCommand implements CommandExecutor {
     private String color_IShovel = "#1f6afeI#2766fer#3063feo#385ffen #405cfeS#4958feh#5155feo#5951fev#624efee#6a4afel #7247ffW#7a43ffe#8340ffa#8b3cffp#9339ffo#9c35ffn#a432ffi#ac2effz#b52bffe#bd27ffd";
     private String color_DSword = "#1f6afeD#2767fei#2e64fea#3660fem#3d5dfeo#455afen#4c57fed #5454feS#5b50few#634dfeo#6a4afer#7247ffd #7944ffW#8141ffe#883dffa#903affp#9737ffo#9f34ffn#a631ffi#ae2dffz#b52affe#bd27ffd";
     private String color_ISword = "#1f6afeI#2866fer#3163feo#395ffen #425bfeS#4b57few#5454feo#5c50fer#654cfed #6e49ffW#7745ffe#8041ffa#883dffp#913affo#9a36ffn#a332ffi#ab2effz#b42bffe#bd27ffd";
-    private String color_rm = "#eb4034A#e73f41l#e43d4dl #e03c5aT#dd3b67o#d93973o#d63880l #d2378cW#cf3699e#cb34a6a#c733b2p#c432bfo#c030ccn#bd2fd8i#b92ee5z#b62cf1e#b22bfed";
+    private String color_rm = "#eb4034A#e83f3el#e53e48l #e23d52T#df3c5co#dc3b67o#d93a71l#d6397bs #d33885D#d0378fe#ce3799-#cb36a3W#c835ade#c534b7a#c233c1p#bf32cco#bc31d6n#b930e0i#b62feaz#b32ef4e#b02dfed";
     private String color_all = "#1f6afeA#2866fel#3262fel #3b5efeT#445afeo#4d56feo#5752fel#604efes #694afeW#7347ffe#7c43ffa#853fffp#8f3bffo#9837ffn#a133ffi#aa2fffz#b42bffe#bd27ffd";
 
     @Override
