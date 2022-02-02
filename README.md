@@ -1,5 +1,9 @@
-<img title="" src="https://img.icons8.com/nolan/512/sports-gun.png" alt="" width="217" data-align="center">**Project Guns** is a Test Project for learning Minecraft Plugins
+<p align="center">
+<img title="" src="https://img.icons8.com/nolan/512/sports-gun.png" alt="" width="217" data-align="center">
 
+<p align="center">
+<b>Project Guns</b> is a Test Project for learning Minecraft Plugins
+   
 # Requirements🔥
 
 ---
