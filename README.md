@@ -4,6 +4,10 @@
 <p align="center">
 <b>Project Guns</b> is a Test Project for learning Minecraft Plugins
    
+# Description👀
+
+This is a test plugin, meaning I don't really intend it for the public use, the "Mini Plugin" series is for me to play around in both Spigot and Github. Though, feel free to download and test my Plugins! Even if it isn't intended for public use
+   
 # Requirements🔥
 
 1. Java 17 ☕
